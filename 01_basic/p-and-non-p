@@ -1,0 +1,16 @@
+let x="jhanvi"
+console.log(x)
+
+let user={
+    id:"Khushpreet Chanotra",
+    sex:"male"
+}
+console.log(user.id)
+let userone=user
+userone.id="sristee"
+userone.sex="female"
+console.log(userone.id)
+console.log(user.id)
+
+//you know if you change in head its going to change in the original copy 
+// but not for the primitive type 
