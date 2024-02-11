@@ -18,3 +18,24 @@ console.log(userinfo.address)
 console.log(userinfo["full name"])
 console.log(userinfo[sys])// it is the syntax where i used [] to call the symbol
 // hence the symbol is used as a key in object 
+
+
+// concept of frezzing. Here i will freez an object so that next time i will not overwrite it 
+userinfo.age=19
+//Object.freeze(userinfo)
+userinfo.age=21
+console.log(userinfo)
+
+
+
+//creating function in js yahan thoda dimag toh lagaa
+
+userinfo.myname =function(){
+      console.log(`My full name id ${this["full name"]}`)
+}
+
+console.log(userinfo.myname())
+
+console.log(userinfo.myname)
+
+
