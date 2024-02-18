@@ -45,3 +45,17 @@ const arr=[
 ]
 console.log(arr[0].id)
 console.log(Object.keys(o))
+
+// destructring object values thoda time lena wala hai 
+const bo={
+    name:'Khuspreet Chanotra',
+    status:'single bura wala',
+    doing: "coding"
+}
+
+// constcept of destructuring 
+const {doing:d}=bo
+console.log(d)
+
+
+// handling api 
